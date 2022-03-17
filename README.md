@@ -1,5 +1,6 @@
 # TUH-EEG-Dataset
-The dataset is organized into a two level hierarchy design with a top level CSVs that summarizes the metadata of the other corpuses. 
+This project seeks to acquire and reformat the 30,000 EEG patient files provided by the Temple Univeristy Hospital into a database that's easy for acquiring clean epochs for training machine learning models and to gain a global view about the connections between each individual corpuses.
+The dataset is organized into a two level hierarchy design with a top level CSV that summarizes the metadata of the other corpuses. 
 Each row is uniquely deteremined by a patient Id and session number combination, which combined with certain labels/artifacts can be used to
 acquire specific information from the lower level CSVs.
 
