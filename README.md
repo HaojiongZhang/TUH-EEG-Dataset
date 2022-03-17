@@ -4,6 +4,7 @@ Each row is uniquely deteremined by a patient Id and session number combination,
 acquire specific information from the lower level CSVs.
 
 **Summary of Files**
+
 Extract.py:
 
 Example code for extracting and parsing data from the TUSZ corpus
