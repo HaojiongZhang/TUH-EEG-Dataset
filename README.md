@@ -5,10 +5,20 @@ acquire specific information from the lower level CSVs.
 
 **Summary of Files**
 Extract.py:
+
 Example code for extracting and parsing data from the TUSZ corpus
 
-Label.py
+Label.py:
+
 Code for extracting data from .lbl and .tse files from the TUH corpuses
 
-Queries.py
+Queries.py:
+
 Code for querying the database
+
+database folder:
+outline of the two level csv design consisting of:
+- top entity
+- TUAB corpus
+- TUAR corpus
+- TUEP corpus
